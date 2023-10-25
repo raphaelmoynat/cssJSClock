@@ -1,0 +1,44 @@
+html body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.fond{
+    background-image: url(https://unsplash.it/1500/1000?image=881&blur=5);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horloge{
+    height: 500px;
+    width: 500px;
+    border: 15px solid white;
+    border-radius: 50%;
+    rotate: -90deg;
+    position: relative;
+}
+
+.hand{
+    position: absolute;
+    transform-origin:  0%;
+    top : 50% ;
+    left: 50%;
+}
+
+.heure{
+    width: 35%;
+    border: 7px black solid;
+}
+
+.minute{
+    width: 40%;
+    border: 5px black solid;
+}
+.seconde{
+    width: 45%;
+    border: 3px black solid;
+}
